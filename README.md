@@ -1,56 +1,56 @@
-# github-demo
+# github-demo workflow
 A simple demo repository to show the basic Git workflow.
 
 # Workflow
-1. ¥ı¦bgithub ¤W·s¼W±M®×
-2. git clone +address ¨ì¥»¾÷
-3. ±N¥»¾÷±M®×À£ÁY¦Ü git±M®×¤U unzip ÀÉ®×¦ì§}
-4. ¨Ï¥Î git add . ±NÀÉ®×§ó·s¦Ü staging area
-5. ¨Ï¥Î git commit -m "Adding start text file" ±NÀÉ®×§ó·s¦Ü Repository area
-6. git push origin master ±NÀÉ®×push to github
+1. å…ˆåœ¨github ä¸Šæ–°å¢å°ˆæ¡ˆ
+2. git clone +address åˆ°æœ¬æ©Ÿ
+3. å°‡æœ¬æ©Ÿå°ˆæ¡ˆå£“ç¸®è‡³ gitå°ˆæ¡ˆä¸‹ unzip æª”æ¡ˆä½å€
+4. ä½¿ç”¨ git add . å°‡æª”æ¡ˆæ›´æ–°è‡³ staging area
+5. ä½¿ç”¨ git commit -m "Adding start text file" å°‡æª”æ¡ˆæ›´æ–°è‡³ Repository area
+6. git push origin master å°‡æª”æ¡ˆpush to github
 
-# Git «ü¥O
+# Git æŒ‡ä»¤
 
-### ±N±M®×¶×¤J¹q¸£
+### å°‡å°ˆæ¡ˆåŒ¯å…¥é›»è…¦
 git clone +address 
 git clone https://github.com/wl02638153/github-demo.git
 
-### ¬d¬İª©¥»
+### æŸ¥çœ‹ç‰ˆæœ¬
 git version
 
-### ¬d¬İª¬ºA
+### æŸ¥çœ‹ç‹€æ…‹
 git status
 
-### «Ø¥ß.txt
+### å»ºç«‹.txt
 echo "Test Git Quick Start Demo" >> start.txt
 
-### ¬d¬İ©Ò¦b¥Ø¿ı¤UÀÉ®×
+### æŸ¥çœ‹æ‰€åœ¨ç›®éŒ„ä¸‹æª”æ¡ˆ
 ls
 
-### ¬d¬İÀÉ®×
+### æŸ¥çœ‹æª”æ¡ˆ
 cat +filename
 cat start.txt
 
-### ¥[¤J§ó·s to Staging Area
+### åŠ å…¥æ›´æ–° to Staging Area
 git add start.txt
 
 ### commit to Repository
 git commit -m "Adding start text file"
 
-### ±NÀÉ®×§ó·s¦Ügithub to github
+### å°‡æª”æ¡ˆæ›´æ–°è‡³github to github
 git push origin master
 
-### §ó§ïÀÉ®×¦WºÙ
+### æ›´æ”¹æª”æ¡ˆåç¨±
 mv oldname newname
 mv css web-project
 
-### §R°£ÀÉ®×
+### åˆªé™¤æª”æ¡ˆ
 rm -rf filename
 rm -rf github-demo
 
-### ¸ÑÀ£ÁY
+### è§£å£“ç¸®
 
-unzip ÀÉ®×¦ì§} 
+unzip æª”æ¡ˆä½å€ 
 unzip D:/bootstrap-4.1.1-dist.zip
 
 
