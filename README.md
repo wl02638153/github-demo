@@ -39,6 +39,7 @@ git commit -m "Adding start text file"
 
 ### 將檔案更新至github to github
 git push origin master
+git push -f   (更新)  
 
 ### 更改檔案名稱
 mv oldname newname
