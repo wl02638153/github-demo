@@ -13,6 +13,7 @@ A simple demo repository to show the basic Git workflow.
 
 ### 將專案匯入電腦
 git clone +address 
+
 git clone https://github.com/wl02638153/github-demo.git
 
 ### 查看版本
@@ -29,6 +30,7 @@ ls
 
 ### 查看檔案
 cat +filename
+
 cat start.txt
 
 ### 加入更新 to Staging Area
@@ -44,10 +46,12 @@ git push -f   (更新)
 
 ### 更改檔案名稱
 mv oldname newname
+
 mv css web-project
 
 ### 刪除檔案
 rm -rf filename
+
 rm -rf github-demo
 
 ### 解壓縮
